@@ -12,7 +12,7 @@
     "build": "webpack --mode=production",
     "prepare": "npm run build",
     "release": "semantic-release",
-    "documentation:publish": "gh-pages -d styleguide"
+    "documentation:publish": "gh-pages -d styleguide -u 'Benoit Averty <benoit.averty@gmail.com>'"
   },
   "repository": {
     "type": "git",
