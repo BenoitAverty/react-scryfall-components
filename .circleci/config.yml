@@ -42,6 +42,27 @@ jobs:
       # release
       - run: npm run release
 
+  publish_documentation:
+    docker:
+      - image: circleci/node:10
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - dependencies-
+      - run: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: dependencies-{{ checksum "package.json" }}
+
+      # release
+      - run: npm run documentation:build
+      - run: npm run documentation:publish
+
 workflows:
   version: 2
   test_and_release:
@@ -51,6 +72,13 @@ workflows:
       - release:
           requires:
             - test
+          filters:
+            branches:
+              only:
+                - master
+      - publish documentation:
+          requires:
+            - release
           filters:
             branches:
               only:

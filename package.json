@@ -8,9 +8,11 @@
     "build:watch": "webpack --mode=production --watch",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
-    "generate-doc": "styleguidist build",
+    "documentation:build": "styleguidist build",
     "build": "webpack --mode=production",
-    "release": "semantic-release"
+    "prepare": "npm run build",
+    "release": "semantic-release",
+    "documentation:publish": "gh-pages -d styleguide"
   },
   "repository": {
     "type": "git",
@@ -60,6 +62,7 @@
     "semantic-release": "^15.9.16",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^1.7.2",
+    "gh-pages": "^2.0.0"
   }
 }
