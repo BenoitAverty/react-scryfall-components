@@ -76,7 +76,7 @@ workflows:
             branches:
               only:
                 - master
-      - publish documentation:
+      - publish_documentation:
           requires:
             - release
           filters:
