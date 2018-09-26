@@ -4,9 +4,10 @@
   "description": "Library of components based on scryfall api",
   "main": "dist/react-scryfall-components.umd.js",
   "scripts": {
-    "start": "webpack --mode=production --watch",
+    "build:watch": "webpack --mode=production --watch",
+    "test:watch": "jest --watch",
     "build": "webpack --mode=production",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -45,7 +46,11 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "axios": "^0.18.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.0",
+    "jest": "^23.6.0",
+    "jest-dom": "^1.12.1",
     "react-styleguidist": "^7.3.8",
     "react-testing-library": "^5.1.0",
     "webpack": "^4.20.2",
