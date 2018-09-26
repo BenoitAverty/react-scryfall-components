@@ -1,3 +1,3 @@
-import React from 'react'
+import React from 'react';
 
-export default () => <p>This is a card autocomplete</p>
+export default () => <p>This is a card autocomplete</p>;

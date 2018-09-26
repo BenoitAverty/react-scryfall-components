@@ -4,6 +4,8 @@
 
 Library of components based on scryfall api
 
+## [Documentation](https://benoitaverty.github.io/react-scryfall-components)
+
 ## Usage
 
 ```
