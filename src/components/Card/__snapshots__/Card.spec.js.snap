@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component Rendering a card image snapshot 1`] = `
+<img
+  src="https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273"
+/>
+`;

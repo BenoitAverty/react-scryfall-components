@@ -1,0 +1,65 @@
+{
+  "name": "react-scryfall-components",
+  "version": "0.0.0-semantic-release",
+  "description": "Library of components based on scryfall api",
+  "main": "dist/react-scryfall-components.umd.js",
+  "scripts": {
+    "documentation:watch": "styleguidist server",
+    "build:watch": "webpack --mode=production --watch",
+    "test:watch": "jest --watch",
+    "test": "jest --coverage",
+    "generate-doc": "styleguidist build",
+    "build": "webpack --mode=production",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenoitAverty/react-scryfall-components.git"
+  },
+  "author": "Benoit Averty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenoitAverty/react-scryfall-components/issues"
+  },
+  "homepage": "https://github.com/BenoitAverty/react-scryfall-components#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-export-default-from": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.0",
+    "codecov": "^3.1.0",
+    "jest": "^23.6.0",
+    "jest-dom": "^1.12.1",
+    "react-styleguidist": "^7.3.8",
+    "react-testing-library": "^5.1.0",
+    "semantic-release": "^15.9.16",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
