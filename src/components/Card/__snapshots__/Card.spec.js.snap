@@ -2,6 +2,7 @@
 
 exports[`Card component Rendering a card image snapshot 1`] = `
 <img
+  alt="Crucible of Worlds"
   src="https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273"
 />
 `;
