@@ -1,13 +1,16 @@
 {
   "name": "react-scryfall-components",
-  "version": "1.0.0",
+  "version": "0.0.0-semantic-release",
   "description": "Library of components based on scryfall api",
   "main": "dist/react-scryfall-components.umd.js",
   "scripts": {
+    "documentation:watch": "styleguidist server",
     "build:watch": "webpack --mode=production --watch",
     "test:watch": "jest --watch",
+    "test": "jest --coverage",
+    "generate-doc": "styleguidist build",
     "build": "webpack --mode=production",
-    "test": "jest --coverage"
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -49,10 +52,12 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.0",
+    "codecov": "^3.1.0",
     "jest": "^23.6.0",
     "jest-dom": "^1.12.1",
     "react-styleguidist": "^7.3.8",
     "react-testing-library": "^5.1.0",
+    "semantic-release": "^15.9.16",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
     "webpack-node-externals": "^1.7.2"
