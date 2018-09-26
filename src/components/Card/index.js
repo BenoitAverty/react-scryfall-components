@@ -4,9 +4,7 @@ import axios from 'axios';
 
 class Card extends React.Component {
   static SIZE_SMALL = 'small'
-
   static SIZE_NORMAL = 'normal'
-
   static SIZE_LARGE = 'large'
 
   static propTypes = {
