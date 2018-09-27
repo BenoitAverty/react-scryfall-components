@@ -6,7 +6,7 @@
   "scripts": {
     "documentation:watch": "styleguidist server",
     "build:watch": "webpack --mode=production --watch",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --coverage",
     "test": "jest --coverage && eslint src/**/*.js --max-warnings=0",
     "documentation:build": "styleguidist build",
     "build": "webpack --mode=production",
