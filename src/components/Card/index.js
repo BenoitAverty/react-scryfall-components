@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from 'axios';
+import axios from '../../axios';
 
 class Card extends React.Component {
   static SIZE_SMALL = 'small'

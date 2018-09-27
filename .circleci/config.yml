@@ -20,7 +20,9 @@ jobs:
         
       # run tests!
       - run: npm run build
-      - run: npm run test && npx codecov
+      - run: npm run test
+      - run: npx codecov
+      - run: npm run lint -- --max-warnings=0
 
   release:
     docker:
