@@ -1,5 +1,5 @@
 {
-  "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
+  "/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
     "status": 200,
     "data": {
       "object": "card",
@@ -69,9 +69,9 @@
       "futureshifted": false,
       "story_spotlight": false,
       "edhrec_rank": 369,
-      "usd": "14.53",
-      "tix": "2.16",
-      "eur": "11.06",
+      "usd": "14.37",
+      "tix": "2.17",
+      "eur": "11.03",
       "related_uris": {
         "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
         "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
@@ -90,7 +90,7 @@
       }
     }
   },
-  "https://api.scryfall.com/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99": {
+  "/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99": {
     "status": 200,
     "data": {
       "object": "card",
@@ -167,7 +167,7 @@
       "edhrec_rank": 2684,
       "usd": "0.10",
       "tix": "0.01",
-      "eur": "0.10",
+      "eur": "0.11",
       "related_uris": {
         "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425841",
         "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Momentary+Blink&page=1&partner=Scryfall",

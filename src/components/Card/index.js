@@ -34,7 +34,7 @@ class Card extends React.Component {
   componentDidMount() {
     const { id, size } = this.props;
 
-    axios.get(`https://api.scryfall.com/cards/${id}`).then(resp => {
+    axios.get(`/cards/${id}`).then(resp => {
       this.setState({
         imgUrl: resp.data.image_uris[size],
         cardName: resp.data.name,
