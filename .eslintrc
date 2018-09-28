@@ -1,6 +1,7 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "plugins": ["prettier"],
+  "extends": ["airbnb", "prettier"],
   "env": {
     "browser": true,
     "node": true
@@ -14,6 +15,7 @@
     }
   ],
   "rules": {
+    "prettier/prettier": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
   }

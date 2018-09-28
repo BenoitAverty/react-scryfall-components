@@ -1,11 +1,18 @@
 // Import all that is needed for testing
 import React from 'react';
 import {
-  render, cleanup, wait, fireEvent, waitForElement,
+  render,
+  cleanup,
+  wait,
+  fireEvent,
+  waitForElement,
 } from 'react-testing-library';
 import 'jest-dom/extend-expect';
 
-import { loadAndApplyFixtures, saveFixtures } from '../../../tests/axiosMocking';
+import {
+  loadAndApplyFixtures,
+  saveFixtures,
+} from '../../../tests/axiosMocking';
 
 // Import the component under test
 import CardLink from '.';
@@ -35,14 +42,20 @@ describe('CardLink component', () => {
       const { container } = render(<CardLink>Black Lotus</CardLink>);
 
       expect(container.querySelectorAll('a')).toHaveLength(1);
-      expect(container.querySelector('a')).toHaveAttribute('href', 'https://scryfall.com/search?q=Black Lotus');
+      expect(container.querySelector('a')).toHaveAttribute(
+        'href',
+        'https://scryfall.com/search?q=Black Lotus',
+      );
     });
 
     it('renders a link to the scryfall page after the search is resolved', async () => {
       const { container } = render(<CardLink>Black Lotus</CardLink>);
 
       await wait(() => {
-        expect(container.querySelector('a')).toHaveAttribute('href', 'https://scryfall.com/card/vma/4/black-lotus?utm_source=api');
+        expect(container.querySelector('a')).toHaveAttribute(
+          'href',
+          'https://scryfall.com/card/vma/4/black-lotus?utm_source=api',
+        );
       });
     });
   });
@@ -58,11 +71,16 @@ describe('CardLink component', () => {
       expect(container.firstChild).toMatchSnapshot();
     });
     it('shows a card on mouse over', async () => {
-      const { container, getByText } = render(<CardLink>crucible of worlds</CardLink>);
+      const { container, getByText } = render(
+        <CardLink>crucible of worlds</CardLink>,
+      );
 
       fireEvent.mouseOver(getByText('crucible of worlds'));
       await wait(() => {
-        expect(container.querySelector('img')).toHaveAttribute('alt', 'Crucible of Worlds');
+        expect(container.querySelector('img')).toHaveAttribute(
+          'alt',
+          'Crucible of Worlds',
+        );
       });
     });
 

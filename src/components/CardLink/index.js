@@ -24,7 +24,7 @@ const css = {
   '.tooltip::after': {
     content: '" "',
     position: 'absolute',
-    top: '100%', /* At the bottom of the tooltip */
+    top: '100%' /* At the bottom of the tooltip */,
     left: '50%',
     'margin-left': '-5px',
     'border-width': '5px',
@@ -41,7 +41,7 @@ class CardLink extends React.Component {
      * it can't be found, to the search page with this string as the query.
      */
     children: PropTypes.string.isRequired,
-  }
+  };
 
   constructor(props) {
     super(props);
@@ -58,9 +58,13 @@ class CardLink extends React.Component {
   componentDidMount() {
     const { children: cardName } = this.props;
 
-    axios.get(`https://api.scryfall.com/cards/named?exact=${cardName}`)
-      .then((resp) => {
-        this.setState({ scryfallUri: resp.data.scryfall_uri, scryfallId: resp.data.id });
+    axios
+      .get(`https://api.scryfall.com/cards/named?exact=${cardName}`)
+      .then(resp => {
+        this.setState({
+          scryfallUri: resp.data.scryfall_uri,
+          scryfallId: resp.data.id,
+        });
       });
   }
 
@@ -78,7 +82,12 @@ class CardLink extends React.Component {
 
     const href = scryfallUri || `https://scryfall.com/search?q=${children}`;
 
-    const tooltip = showTooltip && scryfallId ? <span className="tooltip"><Card id={scryfallId} size={Card.SIZE_SMALL} /></span> : null;
+    const tooltip =
+      showTooltip && scryfallId ? (
+        <span className="tooltip">
+          <Card id={scryfallId} size={Card.SIZE_SMALL} />
+        </span>
+      ) : null;
 
     return (
       <CardLinkContainer
@@ -93,6 +102,5 @@ class CardLink extends React.Component {
     );
   }
 }
-
 
 export default CardLink;

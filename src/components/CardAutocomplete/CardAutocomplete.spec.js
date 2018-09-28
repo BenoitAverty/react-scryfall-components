@@ -3,7 +3,10 @@ import React from 'react';
 import { render, cleanup } from 'react-testing-library';
 import 'jest-dom/extend-expect';
 
-import { loadAndApplyFixtures, saveFixtures } from '../../../tests/axiosMocking';
+import {
+  loadAndApplyFixtures,
+  saveFixtures,
+} from '../../../tests/axiosMocking';
 
 // Import the component under test
 import CardAutocomplete from '.';

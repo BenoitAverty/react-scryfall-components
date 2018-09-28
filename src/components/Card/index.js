@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import axios from '../../axios';
 
 class Card extends React.Component {
-  static SIZE_SMALL = 'small'
-  static SIZE_NORMAL = 'normal'
-  static SIZE_LARGE = 'large'
+  static SIZE_SMALL = 'small';
+  static SIZE_NORMAL = 'normal';
+  static SIZE_LARGE = 'large';
 
   static propTypes = {
     /**
@@ -17,11 +17,11 @@ class Card extends React.Component {
      * Size of the image to render
      */
     size: PropTypes.oneOf([Card.SIZE_SMALL, Card.SIZE_NORMAL, Card.SIZE_LARGE]),
-  }
+  };
 
   static defaultProps = {
     size: Card.SIZE_NORMAL,
-  }
+  };
 
   constructor(props) {
     super(props);
@@ -34,10 +34,12 @@ class Card extends React.Component {
   componentDidMount() {
     const { id, size } = this.props;
 
-    axios.get(`https://api.scryfall.com/cards/${id}`)
-      .then((resp) => {
-        this.setState({ imgUrl: resp.data.image_uris[size], cardName: resp.data.name });
+    axios.get(`https://api.scryfall.com/cards/${id}`).then(resp => {
+      this.setState({
+        imgUrl: resp.data.image_uris[size],
+        cardName: resp.data.name,
       });
+    });
   }
 
   render() {
