@@ -3,10 +3,21 @@ import React from 'react';
 import { render, cleanup, waitForElement } from 'react-testing-library';
 import 'jest-dom/extend-expect';
 
+import { loadAndApplyFixtures, saveFixtures } from '../../../tests/axiosMocking';
+
 // Import the component under test
 import Card from '.';
 
 describe('Card component', () => {
+  // Setup mocking of axios requests.
+  let fixtures;
+  beforeAll(async () => {
+    fixtures = await loadAndApplyFixtures('./src/components/Card');
+  });
+  afterAll(() => {
+    saveFixtures('./src/components/Card', fixtures);
+  });
+
   beforeEach(() => {
     cleanup();
   });
