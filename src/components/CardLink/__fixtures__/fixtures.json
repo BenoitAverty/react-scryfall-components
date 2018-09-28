@@ -1,99 +1,5 @@
 {
-  "https://api.scryfall.com/cards/named?exact=Reveillark": {
-    "status": 200,
-    "data": {
-      "object": "card",
-      "id": "95464df9-71eb-4cb7-9d93-6f07ba318ff8",
-      "oracle_id": "1be13ede-98f8-497e-800c-03e5802932b3",
-      "multiverse_ids": [
-        446771
-      ],
-      "name": "Reveillark",
-      "lang": "en",
-      "uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8",
-      "scryfall_uri": "https://scryfall.com/card/cm2/35/reveillark?utm_source=api",
-      "layout": "normal",
-      "highres_image": true,
-      "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/cm2/35.jpg?1534110871",
-        "normal": "https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871",
-        "large": "https://img.scryfall.com/cards/large/en/cm2/35.jpg?1534110871",
-        "png": "https://img.scryfall.com/cards/png/en/cm2/35.png?1534110871",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/cm2/35.jpg?1534110871",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/cm2/35.jpg?1534110871"
-      },
-      "mana_cost": "{4}{W}",
-      "cmc": 5,
-      "type_line": "Creature — Elemental",
-      "oracle_text": "Flying\nWhen Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.\nEvoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
-      "power": "4",
-      "toughness": "3",
-      "colors": [
-        "W"
-      ],
-      "color_identity": [
-        "W"
-      ],
-      "legalities": {
-        "standard": "not_legal",
-        "future": "not_legal",
-        "frontier": "not_legal",
-        "modern": "legal",
-        "legacy": "legal",
-        "pauper": "not_legal",
-        "vintage": "legal",
-        "penny": "not_legal",
-        "commander": "legal",
-        "1v1": "legal",
-        "duel": "legal",
-        "brawl": "not_legal"
-      },
-      "reserved": false,
-      "foil": true,
-      "nonfoil": true,
-      "oversized": false,
-      "reprint": true,
-      "set": "cm2",
-      "set_name": "Commander Anthology Volume II",
-      "set_uri": "https://api.scryfall.com/sets/cm2",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acm2&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/cm2?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CReveillark%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "35",
-      "digital": false,
-      "rarity": "rare",
-      "illustration_id": "82f9c379-fd42-4557-8f24-c2b5d937100d",
-      "artist": "Jim Murray",
-      "frame": "2015",
-      "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
-      "story_spotlight": false,
-      "edhrec_rank": 456,
-      "usd": "2.27",
-      "eur": "1.21",
-      "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=446771",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall",
-        "edhrec": "http://edhrec.com/route/?cc=Reveillark",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
-      },
-      "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Reveillark&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Reveillark&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/166916",
-        "magiccardmarket": "https://scryfall.com/s/mcm/358688",
-        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Reveillark&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Reveillark&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/store/search.php?q=Reveillark&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4398457"
-      }
-    }
-  },
-  "https://api.scryfall.com/cards/named?exact=Black Lotus": {
+  "/cards/named?exact=Black Lotus": {
     "status": 200,
     "data": {
       "object": "card",
@@ -182,35 +88,35 @@
       }
     }
   },
-  "https://api.scryfall.com/cards/named?exact=Wrath of God": {
+  "/cards/named?exact=Reveillark": {
     "status": 200,
     "data": {
       "object": "card",
-      "id": "2d9b12cc-f616-4b52-91eb-a430e70f9251",
-      "oracle_id": "34515b16-c9a4-4f98-8c77-416a7a523407",
+      "id": "95464df9-71eb-4cb7-9d93-6f07ba318ff8",
+      "oracle_id": "1be13ede-98f8-497e-800c-03e5802932b3",
       "multiverse_ids": [
-        413580
+        446771
       ],
-      "mtgo_id": 60649,
-      "mtgo_foil_id": 60650,
-      "name": "Wrath of God",
+      "name": "Reveillark",
       "lang": "en",
-      "uri": "https://api.scryfall.com/cards/2d9b12cc-f616-4b52-91eb-a430e70f9251",
-      "scryfall_uri": "https://scryfall.com/card/ema/38/wrath-of-god?utm_source=api",
+      "uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8",
+      "scryfall_uri": "https://scryfall.com/card/cm2/35/reveillark?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/ema/38.jpg?1519048065",
-        "normal": "https://img.scryfall.com/cards/normal/en/ema/38.jpg?1519048065",
-        "large": "https://img.scryfall.com/cards/large/en/ema/38.jpg?1519048065",
-        "png": "https://img.scryfall.com/cards/png/en/ema/38.png?1519048065",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/ema/38.jpg?1519048065",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/ema/38.jpg?1519048065"
+        "small": "https://img.scryfall.com/cards/small/en/cm2/35.jpg?1534110871",
+        "normal": "https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871",
+        "large": "https://img.scryfall.com/cards/large/en/cm2/35.jpg?1534110871",
+        "png": "https://img.scryfall.com/cards/png/en/cm2/35.png?1534110871",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/en/cm2/35.jpg?1534110871",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/en/cm2/35.jpg?1534110871"
       },
-      "mana_cost": "{2}{W}{W}",
-      "cmc": 4,
-      "type_line": "Sorcery",
-      "oracle_text": "Destroy all creatures. They can't be regenerated.",
+      "mana_cost": "{4}{W}",
+      "cmc": 5,
+      "type_line": "Creature — Elemental",
+      "oracle_text": "Flying\nWhen Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.\nEvoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)",
+      "power": "4",
+      "toughness": "3",
       "colors": [
         "W"
       ],
@@ -236,18 +142,18 @@
       "nonfoil": true,
       "oversized": false,
       "reprint": true,
-      "set": "ema",
-      "set_name": "Eternal Masters",
-      "set_uri": "https://api.scryfall.com/sets/ema",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aema&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/ema?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/2d9b12cc-f616-4b52-91eb-a430e70f9251/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CWrath+of+God%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "38",
+      "set": "cm2",
+      "set_name": "Commander Anthology Volume II",
+      "set_uri": "https://api.scryfall.com/sets/cm2",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acm2&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/cm2?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CReveillark%E2%80%9D+include%3Aextras&unique=prints",
+      "collector_number": "35",
       "digital": false,
       "rarity": "rare",
-      "illustration_id": "b57c4db3-b71b-4780-b4a3-81dd1e085e26",
-      "artist": "Kev Walker",
+      "illustration_id": "82f9c379-fd42-4557-8f24-c2b5d937100d",
+      "artist": "Jim Murray",
       "frame": "2015",
       "full_art": false,
       "border_color": "black",
@@ -255,29 +161,28 @@
       "colorshifted": false,
       "futureshifted": false,
       "story_spotlight": false,
-      "edhrec_rank": 60,
-      "usd": "7.58",
-      "tix": "1.92",
-      "eur": "4.10",
+      "edhrec_rank": 456,
+      "usd": "2.27",
+      "eur": "1.20",
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=413580",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Wrath+of+God&page=1&partner=Scryfall",
-        "edhrec": "http://edhrec.com/route/?cc=Wrath+of+God",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Wrath+of+God"
+        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=446771",
+        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall",
+        "edhrec": "http://edhrec.com/route/?cc=Reveillark",
+        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Wrath+of+God&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Wrath+of+God&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/118456",
-        "magiccardmarket": "https://scryfall.com/s/mcm/290222",
-        "cardhoarder": "https://www.cardhoarder.com/cards/60649?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/206775?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=60649&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/3296912"
+        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Reveillark&tag=scryfall-20",
+        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Reveillark&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
+        "tcgplayer": "https://scryfall.com/s/tcgplayer/166916",
+        "magiccardmarket": "https://scryfall.com/s/mcm/358688",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Reveillark&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
+        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Reveillark&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "mtgo_traders": "http://www.mtgotraders.com/store/search.php?q=Reveillark&referral=scryfall",
+        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4398457"
       }
     }
   },
-  "https://api.scryfall.com/cards/named?exact=Crucible of Worlds": {
+  "/cards/named?exact=crucible of worlds": {
     "status": 200,
     "data": {
       "object": "card",
@@ -347,100 +252,9 @@
       "futureshifted": false,
       "story_spotlight": false,
       "edhrec_rank": 369,
-      "usd": "14.53",
-      "tix": "2.16",
-      "eur": "11.06",
-      "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
-        "edhrec": "http://edhrec.com/route/?cc=Crucible+of+Worlds",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
-      },
-      "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Crucible+of+Worlds&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Crucible+of+Worlds&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/168749",
-        "magiccardmarket": "https://scryfall.com/s/mcm/359976",
-        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/219885?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=68621&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4420505"
-      }
-    }
-  },
-  "https://api.scryfall.com/cards/named?exact=crucible of worlds": {
-    "status": 200,
-    "data": {
-      "object": "card",
-      "id": "eb28b35c-28a5-4042-b21d-6d43658a16eb",
-      "oracle_id": "33c722cf-b4bf-431f-aefd-ee96241a7fbf",
-      "multiverse_ids": [
-        447366
-      ],
-      "mtgo_id": 68621,
-      "name": "Crucible of Worlds",
-      "lang": "en",
-      "uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb",
-      "scryfall_uri": "https://scryfall.com/card/m19/229/crucible-of-worlds?utm_source=api",
-      "layout": "normal",
-      "highres_image": true,
-      "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/m19/229.jpg?1531451273",
-        "normal": "https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273",
-        "large": "https://img.scryfall.com/cards/large/en/m19/229.jpg?1531451273",
-        "png": "https://img.scryfall.com/cards/png/en/m19/229.png?1531451273",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/m19/229.jpg?1531451273",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/m19/229.jpg?1531451273"
-      },
-      "mana_cost": "{3}",
-      "cmc": 3,
-      "type_line": "Artifact",
-      "oracle_text": "You may play land cards from your graveyard.",
-      "colors": [],
-      "color_identity": [],
-      "legalities": {
-        "standard": "legal",
-        "future": "legal",
-        "frontier": "legal",
-        "modern": "legal",
-        "legacy": "legal",
-        "pauper": "not_legal",
-        "vintage": "legal",
-        "penny": "not_legal",
-        "commander": "legal",
-        "1v1": "legal",
-        "duel": "legal",
-        "brawl": "legal"
-      },
-      "reserved": false,
-      "foil": true,
-      "nonfoil": true,
-      "oversized": false,
-      "reprint": true,
-      "set": "m19",
-      "set_name": "Core Set 2019",
-      "set_uri": "https://api.scryfall.com/sets/m19",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am19&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/m19?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CCrucible+of+Worlds%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "229",
-      "digital": false,
-      "rarity": "mythic",
-      "flavor_text": "Amidst the darkest ashes grow the strongest seeds.",
-      "illustration_id": "3dba8aff-0042-4369-b1ef-93e0005cba85",
-      "artist": "Ron Spencer",
-      "frame": "2015",
-      "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
-      "story_spotlight": false,
-      "edhrec_rank": 369,
-      "usd": "14.53",
-      "tix": "2.16",
-      "eur": "11.06",
+      "usd": "14.37",
+      "tix": "2.17",
+      "eur": "11.03",
       "related_uris": {
         "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
         "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
@@ -459,7 +273,7 @@
       }
     }
   },
-  "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
+  "/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
     "status": 200,
     "data": {
       "object": "card",
@@ -529,9 +343,9 @@
       "futureshifted": false,
       "story_spotlight": false,
       "edhrec_rank": 369,
-      "usd": "14.53",
-      "tix": "2.16",
-      "eur": "11.06",
+      "usd": "14.37",
+      "tix": "2.17",
+      "eur": "11.03",
       "related_uris": {
         "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
         "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",

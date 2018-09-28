@@ -58,14 +58,12 @@ class CardLink extends React.Component {
   componentDidMount() {
     const { children: cardName } = this.props;
 
-    axios
-      .get(`https://api.scryfall.com/cards/named?exact=${cardName}`)
-      .then(resp => {
-        this.setState({
-          scryfallUri: resp.data.scryfall_uri,
-          scryfallId: resp.data.id,
-        });
+    axios.get(`/cards/named?exact=${cardName}`).then(resp => {
+      this.setState({
+        scryfallUri: resp.data.scryfall_uri,
+        scryfallId: resp.data.id,
       });
+    });
   }
 
   showTooltip() {
