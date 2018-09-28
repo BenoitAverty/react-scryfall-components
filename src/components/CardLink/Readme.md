@@ -1,5 +1,5 @@
 Simple link to a card:
 
 ```js
-<CardLink>Reveillark</CardLink>
+<CardLink>Urborg, tomb of yawgmoth</CardLink>
 ```

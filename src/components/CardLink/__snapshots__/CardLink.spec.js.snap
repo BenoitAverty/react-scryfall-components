@@ -1,9 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CardLink component With card name snapshot 1`] = `
-<a
-  href="https://scryfall.com/search?q=Reveillark"
+exports[`CardLink component Card Tooltip snapshot 1`] = `
+<div
+  class="css-dd3y2g"
 >
-  Reveillark
-</a>
+  <span
+    class="tooltip"
+  >
+    <img
+      alt="Crucible of Worlds"
+      src="https://img.scryfall.com/cards/small/en/m19/229.jpg?1531451273"
+    />
+  </span>
+  <a
+    href="https://scryfall.com/card/m19/229/crucible-of-worlds?utm_source=api"
+  >
+    crucible of worlds
+  </a>
+</div>
+`;
+
+exports[`CardLink component With card name snapshot 1`] = `
+<div
+  class="css-dd3y2g"
+>
+  <a
+    href="https://scryfall.com/search?q=Reveillark"
+  >
+    Reveillark
+  </a>
+</div>
 `;
