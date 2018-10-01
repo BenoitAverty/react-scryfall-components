@@ -4,6 +4,7 @@ import styled from 'react-emotion';
 import axios from '../../axios';
 
 import Card from '../Card';
+import LoadingIndicator from '../internal/LoadingIndicator';
 
 const css = {
   position: 'relative',
@@ -13,13 +14,20 @@ const css = {
   },
   '.tooltip': {
     'text-align': 'center',
-    width: '146px',
-    height: '204px',
     position: 'absolute',
     'background-color': '#ddd',
     bottom: '160%',
     left: '50%',
-    'margin-left': '-73px',
+    'margin-left': '-146px',
+    width: '292px',
+    height: '408px',
+    '& img': {
+      width: '292px',
+      height: '408px',
+    },
+    '&.hide': {
+      display: 'none',
+    },
   },
   '.tooltip::after': {
     content: '" "',
@@ -80,12 +88,15 @@ class CardLink extends React.Component {
 
     const href = scryfallUri || `https://scryfall.com/search?q=${children}`;
 
-    const tooltip =
-      showTooltip && scryfallId ? (
-        <span className="tooltip">
-          <Card id={scryfallId} size={Card.SIZE_SMALL} />
-        </span>
-      ) : null;
+    const tooltip = (
+      <span className={showTooltip ? 'tooltip' : 'tooltip hide'}>
+        {scryfallId ? (
+          <Card id={scryfallId} size={Card.SIZE_NORMAL} />
+        ) : (
+          <LoadingIndicator />
+        )}
+      </span>
+    );
 
     return (
       <CardLinkContainer
