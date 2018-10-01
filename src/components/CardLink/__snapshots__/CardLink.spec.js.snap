@@ -2,7 +2,7 @@
 
 exports[`CardLink component Card Tooltip snapshot 1`] = `
 <div
-  class="css-1kd0hwm e130gayk0"
+  class="css-19vjwwd e130gayk0"
 >
   <span
     class="tooltip"
@@ -22,17 +22,18 @@ exports[`CardLink component Card Tooltip snapshot 1`] = `
 
 exports[`CardLink component With card name snapshot 1`] = `
 <div
-  class="css-1kd0hwm e130gayk0"
+  class="css-19vjwwd e130gayk0"
 >
   <span
     class="tooltip hide"
   >
-    <div
-      data-test="LoadingIndicatorStub"
+    <img
+      alt="Reveillark"
+      src="https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871"
     />
   </span>
   <a
-    href="https://scryfall.com/search?q=Reveillark"
+    href="https://scryfall.com/card/cm2/35/reveillark?utm_source=api"
   >
     Reveillark
   </a>

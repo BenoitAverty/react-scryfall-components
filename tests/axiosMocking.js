@@ -39,13 +39,27 @@ export function loadAndApplyFixtures(path) {
             ]);
           }
           // Else, perform the real request and save it in the fixtures
-          return realAxios.get(config.url).then(response => {
-            fixtures[config.url] = {
-              status: response.status,
-              data: response.data,
-            };
-            return [response.status, response.data];
-          });
+          return realAxios.get(config.url).then(
+            response => {
+              fixtures[config.url] = {
+                status: response.status,
+                data: response.data,
+              };
+              return [response.status, response.data];
+            },
+            error => {
+              // When we receive an error from the server, assume it is what the test wants and save it.
+              // It can still be cleared manually from the fixtures file later.
+              if (error.response) {
+                fixtures[config.url] = {
+                  status: error.response.status,
+                  data: error.response.data,
+                };
+              }
+              // Propagate the error.
+              throw error;
+            },
+          );
         });
 
         return fixtures;

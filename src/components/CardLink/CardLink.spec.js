@@ -35,32 +35,33 @@ describe('CardLink component', () => {
   });
 
   describe('With card name', () => {
-    test('snapshot', () => {
+    test('snapshot', async () => {
       const { container } = render(<CardLink>Reveillark</CardLink>);
 
+      // A link should show up
+      await waitForElement(() => container.querySelector('a'));
       expect(container.firstChild).toMatchSnapshot();
     });
 
-    it('renders a link to the scryfall search', () => {
-      const { container } = render(<CardLink>Black Lotus</CardLink>);
+    test.each([
+      [
+        'Black Lotus',
+        'https://scryfall.com/card/vma/4/black-lotus?utm_source=api',
+      ],
+      [
+        'Blac Lotus',
+        'https://scryfall.com/card/vma/4/black-lotus?utm_source=api',
+      ],
+    ])(
+      'renders a link to the scryfall page after the search is resolved',
+      async (cardName, expectedUrl) => {
+        const { container } = render(<CardLink>{cardName}</CardLink>);
 
-      expect(container.querySelectorAll('a')).toHaveLength(1);
-      expect(container.querySelector('a')).toHaveAttribute(
-        'href',
-        'https://scryfall.com/search?q=Black Lotus',
-      );
-    });
-
-    it('renders a link to the scryfall page after the search is resolved', async () => {
-      const { container } = render(<CardLink>Black Lotus</CardLink>);
-
-      await wait(() => {
-        expect(container.querySelector('a')).toHaveAttribute(
-          'href',
-          'https://scryfall.com/card/vma/4/black-lotus?utm_source=api',
-        );
-      });
-    });
+        // A link should show up
+        const link = await waitForElement(() => container.querySelector('a'));
+        expect(link).toHaveAttribute('href', expectedUrl);
+      },
+    );
   });
 
   describe('Card Tooltip', () => {
@@ -69,16 +70,20 @@ describe('CardLink component', () => {
         <CardLink>crucible of worlds</CardLink>,
       );
 
+      // A link should show up
+      await waitForElement(() => container.querySelector('a'));
+
       fireEvent.mouseOver(getByText('crucible of worlds'));
       await waitForElement(() => getByAltText('Crucible of Worlds'));
       expect(container.firstChild).toMatchSnapshot();
     });
     it('shows a card on mouse over', async () => {
-      const { container, getByText } = render(
-        <CardLink>crucible of worlds</CardLink>,
-      );
+      const { container } = render(<CardLink>crucible of worlds</CardLink>);
 
-      fireEvent.mouseOver(getByText('crucible of worlds'));
+      // A link should show up
+      const link = await waitForElement(() => container.querySelector('a'));
+
+      fireEvent.mouseOver(link);
       await wait(() => {
         expect(container.querySelector('img')).toHaveAttribute(
           'alt',
@@ -103,4 +108,37 @@ describe('CardLink component', () => {
       });
     });
   });
+
+  describe('When card is not found', () => {
+    // Mock console.error for this case
+    beforeEach(() => {
+      jest.spyOn(global.console, 'error').mockImplementation(() => {});
+    });
+    afterEach(() => {
+      console.error.mockRestore();
+    });
+
+    it("doesn't show a link", async () => {
+      const { container } = render(
+        <CardLink>This card doesn&apos;t exist</CardLink>,
+      );
+
+      await wait(() => {
+        expect(container.querySelector('a')).toBeNull();
+      });
+    });
+
+    test.each([["This card doesn't exist"], ['jace']])(
+      'prints an error to the console',
+      async cardName => {
+        render(<CardLink>{cardName}</CardLink>);
+
+        await wait(() => {
+          expect(console.error).toHaveBeenCalled();
+        });
+      },
+    );
+  });
+
+  describe('Fuzzy matching', () => {});
 });

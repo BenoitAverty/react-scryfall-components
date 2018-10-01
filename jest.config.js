@@ -1,4 +1,4 @@
 module.exports = {
-  collectCoverageFrom: ['**/components/**/*.js', '!**/*.spec.js'],
+  collectCoverageFrom: ['**/src/**/*.js', '!**/*.spec.js'],
   watchPathIgnorePatterns: ['__fixtures__'],
 };
