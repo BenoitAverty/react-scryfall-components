@@ -1,5 +1,5 @@
-const path = require('path')
-const nodeExternals = require('webpack-node-externals')
+const path = require('path');
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.js'),
@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'react-scryfall-components.umd.js',
     library: 'ReactScryfallComponents',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   externals: [nodeExternals()],
   module: {
@@ -19,8 +19,8 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
-    ]
-  }
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 };
