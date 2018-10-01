@@ -17,6 +17,9 @@ import {
 // Import the component under test
 import CardLink from '.';
 
+// Mock the loading indicator
+jest.mock('../internal/LoadingIndicator');
+
 describe('CardLink component', () => {
   // Setup mocking of axios requests.
   let fixtures;
@@ -81,6 +84,7 @@ describe('CardLink component', () => {
           'alt',
           'Crucible of Worlds',
         );
+        expect(container.querySelector('img')).toBeVisible();
       });
     });
 
@@ -95,7 +99,7 @@ describe('CardLink component', () => {
       fireEvent.mouseOut(getByText('crucible of worlds'));
 
       await wait(() => {
-        expect(container.querySelector('img')).toBeNull();
+        expect(container.querySelector('img')).not.toBeVisible();
       });
     });
   });
