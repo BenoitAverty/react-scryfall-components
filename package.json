@@ -3,9 +3,10 @@
   "version": "0.0.0-semantic-release",
   "description": "Library of components based on scryfall api",
   "main": "dist/react-scryfall-components.umd.js",
+  "module": "src/index.js",
   "scripts": {
     "documentation:watch": "styleguidist server",
-    "build:watch": "webpack --mode=production --watch",
+    "build:watch": "webpack --mode=development --watch",
     "test:watch": "jest --watch",
     "test": "jest --coverage",
     "lint": "eslint src/**/*.js tests/**/*.js",
