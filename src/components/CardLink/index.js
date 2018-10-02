@@ -4,7 +4,6 @@ import styled from 'react-emotion';
 import axios from '../../axios';
 
 import Card from '../Card';
-import LoadingIndicator from '../internal/LoadingIndicator';
 
 const css = {
   position: 'relative',
@@ -13,6 +12,7 @@ const css = {
     'text-decoration': 'underline dotted',
   },
   '.tooltip': {
+    'z-index': 10,
     'text-align': 'center',
     position: 'absolute',
     'background-color': '#ddd',
@@ -59,6 +59,7 @@ class CardLink extends React.Component {
 
     this.state = {
       scryfallUri: null,
+      scryfallId: null,
       showTooltip: false,
     };
   }
@@ -66,12 +67,22 @@ class CardLink extends React.Component {
   componentDidMount() {
     const { children: cardName } = this.props;
 
-    axios.get(`/cards/named?exact=${cardName}`).then(resp => {
-      this.setState({
-        scryfallUri: resp.data.scryfall_uri,
-        scryfallId: resp.data.id,
+    axios
+      .get(`/cards/named?fuzzy=${cardName}`)
+      .then(resp => {
+        this.setState({
+          scryfallUri: resp.data.scryfall_uri,
+          scryfallId: resp.data.id,
+        });
+      })
+      .catch(error => {
+        if (error.response) {
+          console.error(
+            `There was an error with the Card Link for text ${cardName}`,
+            error.response.data,
+          );
+        }
       });
-    });
   }
 
   showTooltip() {
@@ -86,28 +97,25 @@ class CardLink extends React.Component {
     const { scryfallUri, scryfallId, showTooltip } = this.state;
     const { children } = this.props;
 
-    const href = scryfallUri || `https://scryfall.com/search?q=${children}`;
-
-    const tooltip = (
+    // Tooltip generated in a function to avoid instanciating a Card component before we have an id.
+    const tooltip = () => (
       <span className={showTooltip ? 'tooltip' : 'tooltip hide'}>
-        {scryfallId ? (
-          <Card id={scryfallId} size={Card.SIZE_NORMAL} />
-        ) : (
-          <LoadingIndicator />
-        )}
+        <Card id={scryfallId} size={Card.SIZE_NORMAL} />
       </span>
     );
 
-    return (
+    return scryfallId && scryfallUri ? (
       <CardLinkContainer
         onMouseOver={this.showTooltip}
         onFocus={this.showTooltip}
         onMouseLeave={this.hideTooltip}
         onBlur={this.hideTooltip}
       >
-        {tooltip}
-        <a href={href}>{children}</a>
+        {tooltip()}
+        <a href={scryfallUri}>{children}</a>
       </CardLinkContainer>
+    ) : (
+      children
     );
   }
 }
