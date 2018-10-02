@@ -42,11 +42,13 @@ const css = {
 };
 const CardLinkContainer = styled('div')(css);
 
+/**
+ * Renders a link to the scryfall page of a card. The link also features a tooltip showing the card's image.
+ * */
 class CardLink extends React.Component {
   static propTypes = {
     /**
-     * Name of the card. The link will be to the scryfall page of the card, or if
-     * it can't be found, to the search page with this string as the query.
+     * Name of the card. The link will be to the scryfall page of the card, or if it can't be found, to the search page with this string as the query.
      */
     children: PropTypes.string.isRequired,
   };
