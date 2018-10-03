@@ -139,6 +139,4 @@ describe('CardLink component', () => {
       },
     );
   });
-
-  describe('Fuzzy matching', () => {});
 });
