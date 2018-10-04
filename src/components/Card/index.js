@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from '../../axios';
+import axios from '../../utils/axios';
 
 /**
  * Renders a card image from scryfall.
  */
 class Card extends React.Component {
+  static displayName = 'Card';
+
   static SIZE_SMALL = 'small';
   static SIZE_NORMAL = 'normal';
   static SIZE_LARGE = 'large';

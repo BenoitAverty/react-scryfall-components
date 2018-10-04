@@ -2,7 +2,7 @@ import fs from 'fs';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 
-import appAxios from '../src/axios';
+import appAxios from '../src/utils/axios';
 
 const realAxios = axios.create({
   baseURL: 'https://api.scryfall.com',

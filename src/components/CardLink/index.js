@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
-import axios from '../../axios';
+import { withHover } from 'libreact/lib/HoverSensor';
+import { withFocus } from 'libreact/lib/FocusSensor';
 
+import axios from '../../utils/axios';
 import Card from '../Card';
 
 const css = {
@@ -45,7 +47,10 @@ const CardLinkContainer = styled('div')(css);
 /**
  * Renders a link to the scryfall page of a card. The link also features a tooltip showing the card's image.
  * */
+@withHover
+@withFocus
 class CardLink extends React.Component {
+  static displayName = 'CardLink';
   static propTypes = {
     /**
      * Name of the card. The link will be to the scryfall page of the card, or if it can't be found, to the search page with this string as the query.
@@ -56,13 +61,9 @@ class CardLink extends React.Component {
   constructor(props) {
     super(props);
 
-    this.showTooltip = this.showTooltip.bind(this);
-    this.hideTooltip = this.hideTooltip.bind(this);
-
     this.state = {
       scryfallUri: null,
       scryfallId: null,
-      showTooltip: false,
     };
   }
 
@@ -87,32 +88,23 @@ class CardLink extends React.Component {
       });
   }
 
-  showTooltip() {
-    this.setState({ showTooltip: true });
-  }
-
-  hideTooltip() {
-    this.setState({ showTooltip: false });
-  }
-
   render() {
-    const { scryfallUri, scryfallId, showTooltip } = this.state;
-    const { children } = this.props;
+    const { scryfallUri, scryfallId } = this.state;
+    const {
+      children,
+      hover: { isHover, bond: hoverBond },
+      focus: { isFocused, bond: focusBond },
+    } = this.props;
 
     // Tooltip generated in a function to avoid instanciating a Card component before we have an id.
     const tooltip = () => (
-      <span className={showTooltip ? 'tooltip' : 'tooltip hide'}>
+      <span className={isHover || isFocused ? 'tooltip' : 'tooltip hide'}>
         <Card id={scryfallId} size={Card.SIZE_NORMAL} />
       </span>
     );
 
     return scryfallId && scryfallUri ? (
-      <CardLinkContainer
-        onMouseOver={this.showTooltip}
-        onFocus={this.showTooltip}
-        onMouseLeave={this.hideTooltip}
-        onBlur={this.hideTooltip}
-      >
+      <CardLinkContainer {...hoverBond} {...focusBond}>
         {tooltip()}
         <a href={scryfallUri}>{children}</a>
       </CardLinkContainer>
