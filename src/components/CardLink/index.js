@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { withHover } from 'libreact/lib/HoverSensor';
+import { withFocus } from 'libreact/lib/FocusSensor';
 
-import axios from '../../axios';
+import axios from '../../utils/axios';
 import Card from '../Card';
 
 const css = {
@@ -89,18 +90,19 @@ class CardLink extends React.Component {
     const { scryfallUri, scryfallId } = this.state;
     const {
       children,
-      hover: { isHover, bond },
+      hover: { isHover, bond: hoverBond },
+      focus: { isFocused, bond: focusBond },
     } = this.props;
 
     // Tooltip generated in a function to avoid instanciating a Card component before we have an id.
     const tooltip = () => (
-      <span className={isHover ? 'tooltip' : 'tooltip hide'}>
+      <span className={isHover || isFocused ? 'tooltip' : 'tooltip hide'}>
         <Card id={scryfallId} size={Card.SIZE_NORMAL} />
       </span>
     );
 
     return scryfallId && scryfallUri ? (
-      <CardLinkContainer {...bond}>
+      <CardLinkContainer {...hoverBond} {...focusBond}>
         {tooltip()}
         <a href={scryfallUri}>{children}</a>
       </CardLinkContainer>
@@ -111,6 +113,6 @@ class CardLink extends React.Component {
 }
 
 export const BaseComponent = CardLink;
-const WithHoverComponent = withHover(CardLink);
+const WithHoverComponent = withFocus(withHover(CardLink));
 WithHoverComponent.displayName = BaseComponent.displayName;
 export default WithHoverComponent;

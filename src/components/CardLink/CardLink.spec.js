@@ -107,12 +107,42 @@ describe('CardLink component', () => {
         expect(container.querySelector('img')).not.toBeVisible();
       });
     });
+    it('shows a card on focus', async () => {
+      const { container } = render(<CardLink>crucible of worlds</CardLink>);
+
+      // A link should show up
+      const link = await waitForElement(() => container.querySelector('a'));
+
+      fireEvent.focus(link);
+      await wait(() => {
+        expect(container.querySelector('img')).toHaveAttribute(
+          'alt',
+          'Crucible of Worlds',
+        );
+        expect(container.querySelector('img')).toBeVisible();
+      });
+    });
+
+    it('hides the card on blur', async () => {
+      const { container, getByText, getByAltText } = render(
+        <CardLink>crucible of worlds</CardLink>,
+      );
+
+      // mouse enter, Wait for the image to appear then mouse leave
+      fireEvent.focus(getByText('crucible of worlds'));
+      await waitForElement(() => getByAltText('Crucible of Worlds'));
+      fireEvent.blur(getByText('crucible of worlds'));
+
+      await wait(() => {
+        expect(container.querySelector('img')).not.toBeVisible();
+      });
+    });
   });
 
   describe('When card is not found', () => {
     // Mock console.error for this case
     beforeEach(() => {
-      jest.spyOn(global.console, 'error').mockImplementation(() => {});
+      jest.spyOn(global.console, 'error').mockImplementation(() => { });
     });
     afterEach(() => {
       console.error.mockRestore();
