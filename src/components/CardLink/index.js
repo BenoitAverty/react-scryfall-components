@@ -47,6 +47,8 @@ const CardLinkContainer = styled('div')(css);
 /**
  * Renders a link to the scryfall page of a card. The link also features a tooltip showing the card's image.
  * */
+@withHover
+@withFocus
 class CardLink extends React.Component {
   static displayName = 'CardLink';
   static propTypes = {
@@ -112,7 +114,4 @@ class CardLink extends React.Component {
   }
 }
 
-export const BaseComponent = CardLink;
-const WithHoverComponent = withFocus(withHover(CardLink));
-WithHoverComponent.displayName = BaseComponent.displayName;
-export default WithHoverComponent;
+export default CardLink;
