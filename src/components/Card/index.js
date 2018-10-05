@@ -2,6 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Get from '../internal/Get';
+import LoadingIndicator from '../internal/LoadingIndicator';
+
+const imageSizes = {
+  small: { w: 146, h: 204 },
+  normal: { w: 488, h: 680 },
+  large: { w: 672, h: 936 },
+};
 
 /**
  * Renders a card image from scryfall.
@@ -10,8 +17,19 @@ const Card = ({ id, size }) => (
   <Get endpoint={`/cards/${id}`}>
     {(result, status) =>
       status === Get.STATUS_SUCCESS ? (
-        <img src={result.image_uris[size]} alt={result.name} />
-      ) : null
+        <img
+          style={{ display: 'block' }}
+          src={result.image_uris[size]}
+          alt={result.name}
+          width={imageSizes[size].w}
+          height={imageSizes[size].h}
+        />
+      ) : (
+        <LoadingIndicator
+          width={imageSizes[size].w}
+          height={imageSizes[size].h}
+        />
+      )
     }
   </Get>
 );

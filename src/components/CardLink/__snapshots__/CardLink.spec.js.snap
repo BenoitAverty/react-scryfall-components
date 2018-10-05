@@ -9,7 +9,10 @@ exports[`CardLink component Card Tooltip snapshot 1`] = `
   >
     <img
       alt="Crucible of Worlds"
+      height="680"
       src="https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273"
+      style="display: block;"
+      width="488"
     />
   </span>
   <a
@@ -29,7 +32,10 @@ exports[`CardLink component With card name snapshot 1`] = `
   >
     <img
       alt="Reveillark"
+      height="680"
       src="https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871"
+      style="display: block;"
+      width="488"
     />
   </span>
   <a

@@ -1,6 +1,6 @@
 // Import all that is needed for testing
 import React from 'react';
-import { render, cleanup, waitForElement } from 'react-testing-library';
+import { render, cleanup, waitForElement, wait } from 'react-testing-library';
 import 'jest-dom/extend-expect';
 
 import {
@@ -10,6 +10,9 @@ import {
 
 // Import the component under test
 import Card from '.';
+
+// Mock the loading indicator
+jest.mock('../internal/LoadingIndicator');
 
 describe('Card component', () => {
   // Setup mocking of axios requests.
@@ -35,6 +38,20 @@ describe('Card component', () => {
       await waitForElement(() => document.querySelector('img'), { container });
 
       expect(container.firstChild).toMatchSnapshot();
+    });
+
+    it('renders a loading indicator while waiting for the api to reply', async () => {
+      // Crucible of worlds
+      const { queryByTestId } = render(
+        <Card id="eb28b35c-28a5-4042-b21d-6d43658a16eb" />,
+      );
+
+      // Test that there  is a loading indicator
+      expect(queryByTestId('LoadingIndicatorStub')).not.toBeNull();
+      // test that it eventually disappears
+      await wait(() => {
+        expect(queryByTestId('LoadingIndicatorStub')).toBeNull();
+      });
     });
 
     it('renders an image if given a scryfall id', async () => {

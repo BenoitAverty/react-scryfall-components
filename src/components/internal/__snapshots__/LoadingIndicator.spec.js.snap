@@ -1,8 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot 1`] = `
+exports[`basic snapshot 1`] = `
 <div
-  class="css-965768 e1i2ck7j0"
+  class="css-80iyfg e1i2ck7j0"
+  height="100%"
+  width="100%"
+>
+  <div>
+    <div />
+    <div />
+    <div />
+  </div>
+</div>
+`;
+
+exports[`width / height snapshot 1`] = `
+<div
+  class="css-126bhm e1i2ck7j0"
+  height="40px"
+  width="120px"
 >
   <div>
     <div />

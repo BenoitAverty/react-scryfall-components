@@ -276,7 +276,7 @@
       }
     }
   },
-  "/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd": {
+  "/cards/named?fuzzy=Blac Lotus": {
     "status": 200,
     "data": {
       "object": "card",
@@ -365,7 +365,7 @@
       }
     }
   },
-  "/cards/named?fuzzy=Blac Lotus": {
+  "/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd": {
     "status": 200,
     "data": {
       "object": "card",

@@ -1,12 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 
-const Container = styled.div`
+const Container = styled.div(
+  ({ width, height }) => `
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: ${width};
+  height: ${height};
   & > div {
     display: inline-block;
     position: relative;
@@ -45,10 +47,14 @@ const Container = styled.div`
       }
     }
   }
-`;
+`,
+);
 
-const LoadingIndicator = () => (
-  <Container>
+const LoadingIndicator = ({ width, height }) => (
+  <Container
+    width={width ? `${width}px` : '100%'}
+    height={height ? `${height}px` : '100%'}
+  >
     <div>
       <div />
       <div />
@@ -56,5 +62,15 @@ const LoadingIndicator = () => (
     </div>
   </Container>
 );
+
+LoadingIndicator.propTypes = {
+  width: PropTypes.number,
+  height: PropTypes.number,
+};
+
+LoadingIndicator.defaultProps = {
+  width: null,
+  height: null,
+};
 
 export default LoadingIndicator;
