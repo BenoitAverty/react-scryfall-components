@@ -1,56 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import axios from '../../utils/axios';
+
+import Get from '../internal/Get';
 
 /**
  * Renders a card image from scryfall.
  */
-class Card extends React.Component {
-  static displayName = 'Card';
+const Card = ({ id, size }) => (
+  <Get endpoint={`/cards/${id}`}>
+    {(result, status) =>
+      status === Get.STATUS_SUCCESS ? (
+        <img src={result.image_uris[size]} alt={result.name} />
+      ) : null
+    }
+  </Get>
+);
+Card.SIZE_SMALL = 'small';
+Card.SIZE_NORMAL = 'normal';
+Card.SIZE_LARGE = 'large';
 
-  static SIZE_SMALL = 'small';
-  static SIZE_NORMAL = 'normal';
-  static SIZE_LARGE = 'large';
+Card.displayName = 'Card';
 
-  static propTypes = {
-    /**
-     * Scryfall ID of the card to render. This is a uuid that should look like this : eb28b35c-28a5-4042-b21d-6d43658a16eb
-     */
-    id: PropTypes.string.isRequired,
-    /**
-     * Size of the image to render
-     */
-    size: PropTypes.oneOf([Card.SIZE_SMALL, Card.SIZE_NORMAL, Card.SIZE_LARGE]),
-  };
-
-  static defaultProps = {
-    size: Card.SIZE_NORMAL,
-  };
-
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      imgUrl: null,
-    };
-  }
-
-  componentDidMount() {
-    const { id, size } = this.props;
-
-    axios.get(`/cards/${id}`).then(resp => {
-      this.setState({
-        imgUrl: resp.data.image_uris[size],
-        cardName: resp.data.name,
-      });
-    });
-  }
-
-  render() {
-    const { imgUrl, cardName } = this.state;
-
-    return imgUrl ? <img src={imgUrl} alt={cardName} /> : null;
-  }
-}
+Card.propTypes = {
+  /**
+   * Scryfall ID of the card to render. This is a uuid that should look like this : eb28b35c-28a5-4042-b21d-6d43658a16eb
+   */
+  id: PropTypes.string.isRequired,
+  /**
+   * Size of the image to render
+   */
+  size: PropTypes.oneOf([Card.SIZE_SMALL, Card.SIZE_NORMAL, Card.SIZE_LARGE]),
+};
+Card.defaultProps = {
+  size: Card.SIZE_NORMAL,
+};
 
 export default Card;

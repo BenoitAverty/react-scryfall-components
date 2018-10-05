@@ -142,7 +142,7 @@ describe('CardLink component', () => {
   describe('When card is not found', () => {
     // Mock console.error for this case
     beforeEach(() => {
-      jest.spyOn(global.console, 'error').mockImplementation(() => { });
+      jest.spyOn(global.console, 'error').mockImplementation(() => {});
     });
     afterEach(() => {
       console.error.mockRestore();

@@ -17,7 +17,6 @@
   "rules": {
     "prettier/prettier": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/display-name": [1, { "ignoreTranspilerName": true }],
     "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/tests/**","**/*.spec.js", "**/*.stories.js", "**/*.config.js"], "peerDependencies": false, "optionalDependencies": false}],
     "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
     "no-console": ["error", { "allow": ["warn", "error"] }]
