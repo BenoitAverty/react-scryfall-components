@@ -17,9 +17,6 @@ import {
 // Import the component under test
 import CardLink from '.';
 
-// Mock the loading indicator
-jest.mock('../internal/LoadingIndicator');
-
 describe('CardLink component', () => {
   // Setup mocking of axios requests.
   let fixtures;
