@@ -2,7 +2,7 @@
 
 exports[`basic snapshot 1`] = `
 <div
-  class="css-80iyfg e1i2ck7j0"
+  class="css-6bfax7-Container e1i2ck7j0"
   height="100%"
   width="100%"
 >
@@ -16,7 +16,7 @@ exports[`basic snapshot 1`] = `
 
 exports[`width / height snapshot 1`] = `
 <div
-  class="css-126bhm e1i2ck7j0"
+  class="css-p81u5y-Container e1i2ck7j0"
   height="40px"
   width="120px"
 >

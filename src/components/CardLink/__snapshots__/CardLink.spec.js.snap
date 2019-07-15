@@ -2,7 +2,7 @@
 
 exports[`CardLink component Card Tooltip snapshot 1`] = `
 <div
-  class="css-19vjwwd e130gayk0"
+  class="css-h863mz-CardLinkContainer e130gayk0"
 >
   <span
     class="tooltip"
@@ -10,7 +10,7 @@ exports[`CardLink component Card Tooltip snapshot 1`] = `
     <img
       alt="Crucible of Worlds"
       height="680"
-      src="https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273"
+      src="https://img.scryfall.com/cards/normal/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863"
       style="display: block;"
       width="488"
     />
@@ -25,7 +25,7 @@ exports[`CardLink component Card Tooltip snapshot 1`] = `
 
 exports[`CardLink component With card name snapshot 1`] = `
 <div
-  class="css-19vjwwd e130gayk0"
+  class="css-h863mz-CardLinkContainer e130gayk0"
 >
   <span
     class="tooltip hide"
@@ -33,13 +33,13 @@ exports[`CardLink component With card name snapshot 1`] = `
     <img
       alt="Reveillark"
       height="680"
-      src="https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871"
+      src="https://img.scryfall.com/cards/normal/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787"
       style="display: block;"
       width="488"
     />
   </span>
   <a
-    href="https://scryfall.com/card/cm2/35/reveillark?utm_source=api"
+    href="https://scryfall.com/card/uma/31/reveillark?utm_source=api"
   >
     Reveillark
   </a>
