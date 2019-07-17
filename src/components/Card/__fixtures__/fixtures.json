@@ -1,5 +1,5 @@
 {
-  "/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
+  "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
     "status": 200,
     "data": {
       "object": "card",
@@ -9,19 +9,22 @@
         447366
       ],
       "mtgo_id": 68621,
+      "arena_id": 68140,
+      "tcgplayer_id": 168749,
       "name": "Crucible of Worlds",
       "lang": "en",
+      "released_at": "2018-07-13",
       "uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb",
       "scryfall_uri": "https://scryfall.com/card/m19/229/crucible-of-worlds?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/m19/229.jpg?1531451273",
-        "normal": "https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273",
-        "large": "https://img.scryfall.com/cards/large/en/m19/229.jpg?1531451273",
-        "png": "https://img.scryfall.com/cards/png/en/m19/229.png?1531451273",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/m19/229.jpg?1531451273",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/m19/229.jpg?1531451273"
+        "small": "https://img.scryfall.com/cards/small/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "normal": "https://img.scryfall.com/cards/normal/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "large": "https://img.scryfall.com/cards/large/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "png": "https://img.scryfall.com/cards/png/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.png?1562304863",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863"
       },
       "mana_cost": "{3}",
       "cmc": 3,
@@ -39,58 +42,63 @@
         "vintage": "legal",
         "penny": "not_legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "arena",
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "m19",
       "set_name": "Core Set 2019",
-      "set_uri": "https://api.scryfall.com/sets/m19",
+      "set_type": "core",
+      "set_uri": "https://api.scryfall.com/sets/2f5f2509-56db-414d-9a7e-6e312ec3760c",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am19&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/m19?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CCrucible+of+Worlds%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A33c722cf-b4bf-431f-aefd-ee96241a7fbf&unique=prints",
       "collector_number": "229",
       "digital": false,
       "rarity": "mythic",
       "flavor_text": "Amidst the darkest ashes grow the strongest seeds.",
       "illustration_id": "3dba8aff-0042-4369-b1ef-93e0005cba85",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Ron Spencer",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 369,
-      "usd": "14.37",
-      "tix": "2.17",
-      "eur": "11.03",
+      "edhrec_rank": 334,
+      "prices": {
+        "usd": "23.89",
+        "usd_foil": "37.39",
+        "eur": "15.96",
+        "tix": "0.72"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Crucible+of+Worlds",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Crucible+of+Worlds&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Crucible+of+Worlds&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/168749",
-        "magiccardmarket": "https://scryfall.com/s/mcm/359976",
-        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/219885?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=68621&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4420505"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=168749&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2019/Crucible-of-Worlds?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99": {
+  "https://api.scryfall.com/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99": {
     "status": 200,
     "data": {
       "object": "card",
@@ -101,19 +109,21 @@
       ],
       "mtgo_id": 63499,
       "mtgo_foil_id": 63500,
+      "tcgplayer_id": 128591,
       "name": "Momentary Blink",
       "lang": "en",
+      "released_at": "2017-03-17",
       "uri": "https://api.scryfall.com/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99",
       "scryfall_uri": "https://scryfall.com/card/mm3/16/momentary-blink?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/mm3/16.jpg?1517813031",
-        "normal": "https://img.scryfall.com/cards/normal/en/mm3/16.jpg?1517813031",
-        "large": "https://img.scryfall.com/cards/large/en/mm3/16.jpg?1517813031",
-        "png": "https://img.scryfall.com/cards/png/en/mm3/16.png?1517813031",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/mm3/16.jpg?1517813031",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/mm3/16.jpg?1517813031"
+        "small": "https://img.scryfall.com/cards/small/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721",
+        "normal": "https://img.scryfall.com/cards/normal/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721",
+        "large": "https://img.scryfall.com/cards/large/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721",
+        "png": "https://img.scryfall.com/cards/png/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.png?1561762721",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721"
       },
       "mana_cost": "{1}{W}",
       "cmc": 2,
@@ -136,53 +146,57 @@
         "vintage": "legal",
         "penny": "legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "not_legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "mm3",
       "set_name": "Modern Masters 2017",
-      "set_uri": "https://api.scryfall.com/sets/mm3",
+      "set_type": "masters",
+      "set_uri": "https://api.scryfall.com/sets/02624962-f727-4c31-bbf2-a94fa6c5b653",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Amm3&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/mm3?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CMomentary+Blink%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7&unique=prints",
       "collector_number": "16",
       "digital": false,
       "rarity": "common",
       "illustration_id": "57e7e377-876b-4908-ba40-629beb8a56aa",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Evan Shipard",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 2684,
-      "usd": "0.10",
-      "tix": "0.01",
-      "eur": "0.11",
+      "edhrec_rank": 2614,
+      "prices": {
+        "usd": "0.12",
+        "usd_foil": "0.29",
+        "eur": "0.12",
+        "tix": "0.01"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425841",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Momentary+Blink&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425841",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Momentary+Blink&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Momentary+Blink",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Momentary+Blink"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Momentary+Blink"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Momentary+Blink&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Momentary+Blink&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/128591",
-        "magiccardmarket": "https://scryfall.com/s/mcm/295854",
-        "cardhoarder": "https://www.cardhoarder.com/cards/63499?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/211058?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=63499&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/3839659"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=128591&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Modern-Masters-2017/Momentary-Blink?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/63499?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   }

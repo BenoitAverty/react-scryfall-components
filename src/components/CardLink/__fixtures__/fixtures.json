@@ -1,26 +1,30 @@
 {
-  "/cards/named?fuzzy=Reveillark": {
+  "https://api.scryfall.com/cards/named?fuzzy=Reveillark": {
     "status": 200,
     "data": {
       "object": "card",
-      "id": "95464df9-71eb-4cb7-9d93-6f07ba318ff8",
+      "id": "4bcf9b52-d249-41e7-8ed1-ba9acc816f30",
       "oracle_id": "1be13ede-98f8-497e-800c-03e5802932b3",
       "multiverse_ids": [
-        446771
+        456627
       ],
+      "mtgo_id": 70135,
+      "mtgo_foil_id": 70136,
+      "tcgplayer_id": 180826,
       "name": "Reveillark",
       "lang": "en",
-      "uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8",
-      "scryfall_uri": "https://scryfall.com/card/cm2/35/reveillark?utm_source=api",
+      "released_at": "2018-12-07",
+      "uri": "https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30",
+      "scryfall_uri": "https://scryfall.com/card/uma/31/reveillark?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/cm2/35.jpg?1534110871",
-        "normal": "https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871",
-        "large": "https://img.scryfall.com/cards/large/en/cm2/35.jpg?1534110871",
-        "png": "https://img.scryfall.com/cards/png/en/cm2/35.png?1534110871",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/cm2/35.jpg?1534110871",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/cm2/35.jpg?1534110871"
+        "small": "https://img.scryfall.com/cards/small/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "normal": "https://img.scryfall.com/cards/normal/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "large": "https://img.scryfall.com/cards/large/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "png": "https://img.scryfall.com/cards/png/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.png?1547515787",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787"
       },
       "mana_cost": "{4}{W}",
       "cmc": 5,
@@ -44,166 +48,86 @@
         "vintage": "legal",
         "penny": "not_legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "not_legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
-      "set": "cm2",
-      "set_name": "Commander Anthology Volume II",
-      "set_uri": "https://api.scryfall.com/sets/cm2",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acm2&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/cm2?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CReveillark%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "35",
+      "variation": false,
+      "set": "uma",
+      "set_name": "Ultimate Masters",
+      "set_type": "masters",
+      "set_uri": "https://api.scryfall.com/sets/2ec77b94-6d47-4891-a480-5d0b4e5c9372",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Auma&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/uma?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A1be13ede-98f8-497e-800c-03e5802932b3&unique=prints",
+      "collector_number": "31",
       "digital": false,
       "rarity": "rare",
       "illustration_id": "82f9c379-fd42-4557-8f24-c2b5d937100d",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Jim Murray",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 458,
-      "usd": "2.35",
-      "eur": "1.13",
+      "edhrec_rank": 505,
+      "prices": {
+        "usd": "1.34",
+        "usd_foil": "3.97",
+        "eur": "0.76",
+        "tix": "0.15"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=446771",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456627",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Reveillark",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Reveillark&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Reveillark&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/166916",
-        "magiccardmarket": "https://scryfall.com/s/mcm/358688",
-        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Reveillark&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Reveillark&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/store/search.php?q=Reveillark&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4398457"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=180826&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ultimate-Masters/Reveillark?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/70135?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/named?fuzzy=Black Lotus": {
+  "https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30": {
     "status": 200,
     "data": {
       "object": "card",
-      "id": "bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd",
-      "oracle_id": "5089ec1a-f881-4d55-af14-5d996171203b",
-      "multiverse_ids": [
-        382866
-      ],
-      "mtgo_id": 53155,
-      "mtgo_foil_id": 53156,
-      "name": "Black Lotus",
-      "lang": "en",
-      "uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd",
-      "scryfall_uri": "https://scryfall.com/card/vma/4/black-lotus?utm_source=api",
-      "layout": "normal",
-      "highres_image": true,
-      "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/vma/4.jpg?1517813031",
-        "normal": "https://img.scryfall.com/cards/normal/en/vma/4.jpg?1517813031",
-        "large": "https://img.scryfall.com/cards/large/en/vma/4.jpg?1517813031",
-        "png": "https://img.scryfall.com/cards/png/en/vma/4.png?1517813031",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/vma/4.jpg?1517813031",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/vma/4.jpg?1517813031"
-      },
-      "mana_cost": "{0}",
-      "cmc": 0,
-      "type_line": "Artifact",
-      "oracle_text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
-      "colors": [],
-      "color_identity": [],
-      "legalities": {
-        "standard": "not_legal",
-        "future": "not_legal",
-        "frontier": "not_legal",
-        "modern": "not_legal",
-        "legacy": "banned",
-        "pauper": "not_legal",
-        "vintage": "restricted",
-        "penny": "not_legal",
-        "commander": "banned",
-        "1v1": "banned",
-        "duel": "banned",
-        "brawl": "not_legal"
-      },
-      "reserved": true,
-      "foil": true,
-      "nonfoil": true,
-      "oversized": false,
-      "reprint": true,
-      "set": "vma",
-      "set_name": "Vintage Masters",
-      "set_uri": "https://api.scryfall.com/sets/vma",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Avma&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/vma?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CBlack+Lotus%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "4",
-      "digital": true,
-      "rarity": "mythic",
-      "illustration_id": "da62ded1-bedd-44c6-8950-ca56e691a899",
-      "artist": "Chris Rahn",
-      "frame": "2015",
-      "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
-      "story_spotlight": false,
-      "edhrec_rank": 13494,
-      "tix": "24.67",
-      "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382866",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall",
-        "edhrec": "http://edhrec.com/route/?cc=Black+Lotus",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
-      },
-      "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Black+Lotus&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Black+Lotus&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://shop.tcgplayer.com/magic/product/show?ProductName=Black+Lotus&partner=Scryfall",
-        "magiccardmarket": "https://www.cardmarket.com/Magic?mainPage=showSearchResult&referrer=scryfall&searchFor=Black+Lotus",
-        "cardhoarder": "https://www.cardhoarder.com/cards/53155?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Black+Lotus&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=53155&referral=scryfall",
-        "coolstuffinc": "https://www.coolstuffinc.com/main_search.php?pa=searchOnName&page=1&q=Black+Lotus&resultsPerPage=50&utm_source=scryfall"
-      }
-    }
-  },
-  "/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8": {
-    "status": 200,
-    "data": {
-      "object": "card",
-      "id": "95464df9-71eb-4cb7-9d93-6f07ba318ff8",
+      "id": "4bcf9b52-d249-41e7-8ed1-ba9acc816f30",
       "oracle_id": "1be13ede-98f8-497e-800c-03e5802932b3",
       "multiverse_ids": [
-        446771
+        456627
       ],
+      "mtgo_id": 70135,
+      "mtgo_foil_id": 70136,
+      "tcgplayer_id": 180826,
       "name": "Reveillark",
       "lang": "en",
-      "uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8",
-      "scryfall_uri": "https://scryfall.com/card/cm2/35/reveillark?utm_source=api",
+      "released_at": "2018-12-07",
+      "uri": "https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30",
+      "scryfall_uri": "https://scryfall.com/card/uma/31/reveillark?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/cm2/35.jpg?1534110871",
-        "normal": "https://img.scryfall.com/cards/normal/en/cm2/35.jpg?1534110871",
-        "large": "https://img.scryfall.com/cards/large/en/cm2/35.jpg?1534110871",
-        "png": "https://img.scryfall.com/cards/png/en/cm2/35.png?1534110871",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/cm2/35.jpg?1534110871",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/cm2/35.jpg?1534110871"
+        "small": "https://img.scryfall.com/cards/small/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "normal": "https://img.scryfall.com/cards/normal/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "large": "https://img.scryfall.com/cards/large/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "png": "https://img.scryfall.com/cards/png/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.png?1547515787",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/4/b/4bcf9b52-d249-41e7-8ed1-ba9acc816f30.jpg?1547515787"
       },
       "mana_cost": "{4}{W}",
       "cmc": 5,
@@ -227,56 +151,61 @@
         "vintage": "legal",
         "penny": "not_legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "not_legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
-      "set": "cm2",
-      "set_name": "Commander Anthology Volume II",
-      "set_uri": "https://api.scryfall.com/sets/cm2",
-      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Acm2&unique=prints",
-      "scryfall_set_uri": "https://scryfall.com/sets/cm2?utm_source=api",
-      "rulings_uri": "https://api.scryfall.com/cards/95464df9-71eb-4cb7-9d93-6f07ba318ff8/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CReveillark%E2%80%9D+include%3Aextras&unique=prints",
-      "collector_number": "35",
+      "variation": false,
+      "set": "uma",
+      "set_name": "Ultimate Masters",
+      "set_type": "masters",
+      "set_uri": "https://api.scryfall.com/sets/2ec77b94-6d47-4891-a480-5d0b4e5c9372",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Auma&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/uma?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/4bcf9b52-d249-41e7-8ed1-ba9acc816f30/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A1be13ede-98f8-497e-800c-03e5802932b3&unique=prints",
+      "collector_number": "31",
       "digital": false,
       "rarity": "rare",
       "illustration_id": "82f9c379-fd42-4557-8f24-c2b5d937100d",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Jim Murray",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 458,
-      "usd": "2.35",
-      "eur": "1.13",
+      "edhrec_rank": 505,
+      "prices": {
+        "usd": "1.34",
+        "usd_foil": "3.97",
+        "eur": "0.76",
+        "tix": "0.15"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=446771",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=456627",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Reveillark&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Reveillark",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Reveillark"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Reveillark&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Reveillark&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/166916",
-        "magiccardmarket": "https://scryfall.com/s/mcm/358688",
-        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Reveillark&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Reveillark&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/store/search.php?q=Reveillark&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4398457"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=180826&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Ultimate-Masters/Reveillark?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/70135?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/named?fuzzy=Blac Lotus": {
+  "https://api.scryfall.com/cards/named?fuzzy=Black Lotus": {
     "status": 200,
     "data": {
       "object": "card",
@@ -289,17 +218,18 @@
       "mtgo_foil_id": 53156,
       "name": "Black Lotus",
       "lang": "en",
+      "released_at": "2014-06-16",
       "uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd",
       "scryfall_uri": "https://scryfall.com/card/vma/4/black-lotus?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/vma/4.jpg?1517813031",
-        "normal": "https://img.scryfall.com/cards/normal/en/vma/4.jpg?1517813031",
-        "large": "https://img.scryfall.com/cards/large/en/vma/4.jpg?1517813031",
-        "png": "https://img.scryfall.com/cards/png/en/vma/4.png?1517813031",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/vma/4.jpg?1517813031",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/vma/4.jpg?1517813031"
+        "small": "https://img.scryfall.com/cards/small/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "normal": "https://img.scryfall.com/cards/normal/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "large": "https://img.scryfall.com/cards/large/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "png": "https://img.scryfall.com/cards/png/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.png?1562933099",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099"
       },
       "mana_cost": "{0}",
       "cmc": 0,
@@ -317,55 +247,59 @@
         "vintage": "restricted",
         "penny": "not_legal",
         "commander": "banned",
-        "1v1": "banned",
         "duel": "banned",
-        "brawl": "not_legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "mtgo"
+      ],
       "reserved": true,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "vma",
       "set_name": "Vintage Masters",
-      "set_uri": "https://api.scryfall.com/sets/vma",
+      "set_type": "masters",
+      "set_uri": "https://api.scryfall.com/sets/a944551a-73fa-41cd-9159-e8d0e4674403",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Avma&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/vma?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CBlack+Lotus%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5089ec1a-f881-4d55-af14-5d996171203b&unique=prints",
       "collector_number": "4",
       "digital": true,
       "rarity": "mythic",
       "illustration_id": "da62ded1-bedd-44c6-8950-ca56e691a899",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Chris Rahn",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 13494,
-      "tix": "24.67",
+      "prices": {
+        "usd": null,
+        "usd_foil": null,
+        "eur": null,
+        "tix": null
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382866",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382866",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Black+Lotus",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Black+Lotus&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Black+Lotus&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://shop.tcgplayer.com/magic/product/show?ProductName=Black+Lotus&partner=Scryfall",
-        "magiccardmarket": "https://www.cardmarket.com/Magic?mainPage=showSearchResult&referrer=scryfall&searchFor=Black+Lotus",
-        "cardhoarder": "https://www.cardhoarder.com/cards/53155?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Black+Lotus&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=53155&referral=scryfall",
-        "coolstuffinc": "https://www.coolstuffinc.com/main_search.php?pa=searchOnName&page=1&q=Black+Lotus&resultsPerPage=50&utm_source=scryfall"
+        "tcgplayer": "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Black+Lotus&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Black+Lotus&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/53155?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd": {
+  "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd": {
     "status": 200,
     "data": {
       "object": "card",
@@ -378,17 +312,18 @@
       "mtgo_foil_id": 53156,
       "name": "Black Lotus",
       "lang": "en",
+      "released_at": "2014-06-16",
       "uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd",
       "scryfall_uri": "https://scryfall.com/card/vma/4/black-lotus?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/vma/4.jpg?1517813031",
-        "normal": "https://img.scryfall.com/cards/normal/en/vma/4.jpg?1517813031",
-        "large": "https://img.scryfall.com/cards/large/en/vma/4.jpg?1517813031",
-        "png": "https://img.scryfall.com/cards/png/en/vma/4.png?1517813031",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/vma/4.jpg?1517813031",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/vma/4.jpg?1517813031"
+        "small": "https://img.scryfall.com/cards/small/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "normal": "https://img.scryfall.com/cards/normal/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "large": "https://img.scryfall.com/cards/large/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "png": "https://img.scryfall.com/cards/png/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.png?1562933099",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/b/d/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd.jpg?1562933099"
       },
       "mana_cost": "{0}",
       "cmc": 0,
@@ -406,55 +341,245 @@
         "vintage": "restricted",
         "penny": "not_legal",
         "commander": "banned",
-        "1v1": "banned",
         "duel": "banned",
-        "brawl": "not_legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "mtgo"
+      ],
       "reserved": true,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "vma",
       "set_name": "Vintage Masters",
-      "set_uri": "https://api.scryfall.com/sets/vma",
+      "set_type": "masters",
+      "set_uri": "https://api.scryfall.com/sets/a944551a-73fa-41cd-9159-e8d0e4674403",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Avma&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/vma?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/bd8fa327-dd41-4737-8f19-2cf5eb1f7cdd/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CBlack+Lotus%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5089ec1a-f881-4d55-af14-5d996171203b&unique=prints",
       "collector_number": "4",
       "digital": true,
       "rarity": "mythic",
       "illustration_id": "da62ded1-bedd-44c6-8950-ca56e691a899",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Chris Rahn",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 13494,
-      "tix": "24.67",
+      "prices": {
+        "usd": null,
+        "usd_foil": null,
+        "eur": null,
+        "tix": null
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382866",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=382866",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Black+Lotus",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Black+Lotus&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Black+Lotus&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://shop.tcgplayer.com/magic/product/show?ProductName=Black+Lotus&partner=Scryfall",
-        "magiccardmarket": "https://www.cardmarket.com/Magic?mainPage=showSearchResult&referrer=scryfall&searchFor=Black+Lotus",
-        "cardhoarder": "https://www.cardhoarder.com/cards/53155?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/search?filter%5Bname%5D=Black+Lotus&partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=53155&referral=scryfall",
-        "coolstuffinc": "https://www.coolstuffinc.com/main_search.php?pa=searchOnName&page=1&q=Black+Lotus&resultsPerPage=50&utm_source=scryfall"
+        "tcgplayer": "https://shop.tcgplayer.com/productcatalog/product/show?ProductName=Black+Lotus&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Black+Lotus&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/53155?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/named?fuzzy=crucible of worlds": {
+  "https://api.scryfall.com/cards/named?fuzzy=Blac Lotus": {
+    "status": 200,
+    "data": {
+      "object": "card",
+      "id": "4a2e428c-dd25-484c-bbc8-2d6ce10ef42c",
+      "oracle_id": "5089ec1a-f881-4d55-af14-5d996171203b",
+      "multiverse_ids": [
+        600
+      ],
+      "tcgplayer_id": 8989,
+      "name": "Black Lotus",
+      "lang": "en",
+      "released_at": "1993-12-01",
+      "uri": "https://api.scryfall.com/cards/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c",
+      "scryfall_uri": "https://scryfall.com/card/2ed/233/black-lotus?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_uris": {
+        "small": "https://img.scryfall.com/cards/small/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "normal": "https://img.scryfall.com/cards/normal/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "large": "https://img.scryfall.com/cards/large/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "png": "https://img.scryfall.com/cards/png/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.png?1559591808",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808"
+      },
+      "mana_cost": "{0}",
+      "cmc": 0,
+      "type_line": "Artifact",
+      "oracle_text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+      "colors": [],
+      "color_identity": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "frontier": "not_legal",
+        "modern": "not_legal",
+        "legacy": "banned",
+        "pauper": "not_legal",
+        "vintage": "restricted",
+        "penny": "not_legal",
+        "commander": "banned",
+        "duel": "banned",
+        "oldschool": "restricted"
+      },
+      "games": [
+        "paper"
+      ],
+      "reserved": true,
+      "foil": false,
+      "nonfoil": true,
+      "oversized": false,
+      "promo": false,
+      "reprint": true,
+      "variation": false,
+      "set": "2ed",
+      "set_name": "Unlimited Edition",
+      "set_type": "core",
+      "set_uri": "https://api.scryfall.com/sets/cd7694b9-339c-405d-a991-14413d4f6d5c",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3A2ed&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/2ed?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5089ec1a-f881-4d55-af14-5d996171203b&unique=prints",
+      "collector_number": "233",
+      "digital": false,
+      "rarity": "rare",
+      "illustration_id": "54436824-977b-4dc7-8de1-8498e73e5ef2",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Christopher Rush",
+      "border_color": "white",
+      "frame": "1993",
+      "full_art": false,
+      "textless": false,
+      "booster": true,
+      "story_spotlight": false,
+      "prices": {
+        "usd": "3999.00",
+        "usd_foil": null,
+        "eur": "8162.77",
+        "tix": null
+      },
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=600",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "edhrec": "http://edhrec.com/route/?cc=Black+Lotus",
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=8989&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Unlimited/Black-Lotus?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Black+Lotus&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    }
+  },
+  "https://api.scryfall.com/cards/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c": {
+    "status": 200,
+    "data": {
+      "object": "card",
+      "id": "4a2e428c-dd25-484c-bbc8-2d6ce10ef42c",
+      "oracle_id": "5089ec1a-f881-4d55-af14-5d996171203b",
+      "multiverse_ids": [
+        600
+      ],
+      "tcgplayer_id": 8989,
+      "name": "Black Lotus",
+      "lang": "en",
+      "released_at": "1993-12-01",
+      "uri": "https://api.scryfall.com/cards/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c",
+      "scryfall_uri": "https://scryfall.com/card/2ed/233/black-lotus?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_uris": {
+        "small": "https://img.scryfall.com/cards/small/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "normal": "https://img.scryfall.com/cards/normal/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "large": "https://img.scryfall.com/cards/large/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "png": "https://img.scryfall.com/cards/png/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.png?1559591808",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c.jpg?1559591808"
+      },
+      "mana_cost": "{0}",
+      "cmc": 0,
+      "type_line": "Artifact",
+      "oracle_text": "{T}, Sacrifice Black Lotus: Add three mana of any one color.",
+      "colors": [],
+      "color_identity": [],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "frontier": "not_legal",
+        "modern": "not_legal",
+        "legacy": "banned",
+        "pauper": "not_legal",
+        "vintage": "restricted",
+        "penny": "not_legal",
+        "commander": "banned",
+        "duel": "banned",
+        "oldschool": "restricted"
+      },
+      "games": [
+        "paper"
+      ],
+      "reserved": true,
+      "foil": false,
+      "nonfoil": true,
+      "oversized": false,
+      "promo": false,
+      "reprint": true,
+      "variation": false,
+      "set": "2ed",
+      "set_name": "Unlimited Edition",
+      "set_type": "core",
+      "set_uri": "https://api.scryfall.com/sets/cd7694b9-339c-405d-a991-14413d4f6d5c",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3A2ed&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/2ed?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A5089ec1a-f881-4d55-af14-5d996171203b&unique=prints",
+      "collector_number": "233",
+      "digital": false,
+      "rarity": "rare",
+      "illustration_id": "54436824-977b-4dc7-8de1-8498e73e5ef2",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Christopher Rush",
+      "border_color": "white",
+      "frame": "1993",
+      "full_art": false,
+      "textless": false,
+      "booster": true,
+      "story_spotlight": false,
+      "prices": {
+        "usd": "3999.00",
+        "usd_foil": null,
+        "eur": "8162.77",
+        "tix": null
+      },
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=600",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Black+Lotus&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "edhrec": "http://edhrec.com/route/?cc=Black+Lotus",
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Black+Lotus"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=8989&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Unlimited/Black-Lotus?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Black+Lotus&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    }
+  },
+  "https://api.scryfall.com/cards/named?fuzzy=crucible of worlds": {
     "status": 200,
     "data": {
       "object": "card",
@@ -464,19 +589,22 @@
         447366
       ],
       "mtgo_id": 68621,
+      "arena_id": 68140,
+      "tcgplayer_id": 168749,
       "name": "Crucible of Worlds",
       "lang": "en",
+      "released_at": "2018-07-13",
       "uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb",
       "scryfall_uri": "https://scryfall.com/card/m19/229/crucible-of-worlds?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/m19/229.jpg?1531451273",
-        "normal": "https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273",
-        "large": "https://img.scryfall.com/cards/large/en/m19/229.jpg?1531451273",
-        "png": "https://img.scryfall.com/cards/png/en/m19/229.png?1531451273",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/m19/229.jpg?1531451273",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/m19/229.jpg?1531451273"
+        "small": "https://img.scryfall.com/cards/small/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "normal": "https://img.scryfall.com/cards/normal/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "large": "https://img.scryfall.com/cards/large/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "png": "https://img.scryfall.com/cards/png/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.png?1562304863",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863"
       },
       "mana_cost": "{3}",
       "cmc": 3,
@@ -494,58 +622,63 @@
         "vintage": "legal",
         "penny": "not_legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "arena",
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "m19",
       "set_name": "Core Set 2019",
-      "set_uri": "https://api.scryfall.com/sets/m19",
+      "set_type": "core",
+      "set_uri": "https://api.scryfall.com/sets/2f5f2509-56db-414d-9a7e-6e312ec3760c",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am19&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/m19?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CCrucible+of+Worlds%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A33c722cf-b4bf-431f-aefd-ee96241a7fbf&unique=prints",
       "collector_number": "229",
       "digital": false,
       "rarity": "mythic",
       "flavor_text": "Amidst the darkest ashes grow the strongest seeds.",
       "illustration_id": "3dba8aff-0042-4369-b1ef-93e0005cba85",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Ron Spencer",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 368,
-      "usd": "14.25",
-      "tix": "1.61",
-      "eur": "11.09",
+      "edhrec_rank": 334,
+      "prices": {
+        "usd": "24.02",
+        "usd_foil": "37.39",
+        "eur": "15.94",
+        "tix": "0.78"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Crucible+of+Worlds",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Crucible+of+Worlds&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Crucible+of+Worlds&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/168749",
-        "magiccardmarket": "https://scryfall.com/s/mcm/359976",
-        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/219885?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=68621&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4420505"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=168749&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2019/Crucible-of-Worlds?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
+  "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb": {
     "status": 200,
     "data": {
       "object": "card",
@@ -555,19 +688,22 @@
         447366
       ],
       "mtgo_id": 68621,
+      "arena_id": 68140,
+      "tcgplayer_id": 168749,
       "name": "Crucible of Worlds",
       "lang": "en",
+      "released_at": "2018-07-13",
       "uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb",
       "scryfall_uri": "https://scryfall.com/card/m19/229/crucible-of-worlds?utm_source=api",
       "layout": "normal",
       "highres_image": true,
       "image_uris": {
-        "small": "https://img.scryfall.com/cards/small/en/m19/229.jpg?1531451273",
-        "normal": "https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273",
-        "large": "https://img.scryfall.com/cards/large/en/m19/229.jpg?1531451273",
-        "png": "https://img.scryfall.com/cards/png/en/m19/229.png?1531451273",
-        "art_crop": "https://img.scryfall.com/cards/art_crop/en/m19/229.jpg?1531451273",
-        "border_crop": "https://img.scryfall.com/cards/border_crop/en/m19/229.jpg?1531451273"
+        "small": "https://img.scryfall.com/cards/small/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "normal": "https://img.scryfall.com/cards/normal/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "large": "https://img.scryfall.com/cards/large/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "png": "https://img.scryfall.com/cards/png/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.png?1562304863",
+        "art_crop": "https://img.scryfall.com/cards/art_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863",
+        "border_crop": "https://img.scryfall.com/cards/border_crop/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863"
       },
       "mana_cost": "{3}",
       "cmc": 3,
@@ -585,58 +721,63 @@
         "vintage": "legal",
         "penny": "not_legal",
         "commander": "legal",
-        "1v1": "legal",
         "duel": "legal",
-        "brawl": "legal"
+        "oldschool": "not_legal"
       },
+      "games": [
+        "arena",
+        "mtgo",
+        "paper"
+      ],
       "reserved": false,
       "foil": true,
       "nonfoil": true,
       "oversized": false,
+      "promo": false,
       "reprint": true,
+      "variation": false,
       "set": "m19",
       "set_name": "Core Set 2019",
-      "set_uri": "https://api.scryfall.com/sets/m19",
+      "set_type": "core",
+      "set_uri": "https://api.scryfall.com/sets/2f5f2509-56db-414d-9a7e-6e312ec3760c",
       "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Am19&unique=prints",
       "scryfall_set_uri": "https://scryfall.com/sets/m19?utm_source=api",
       "rulings_uri": "https://api.scryfall.com/cards/eb28b35c-28a5-4042-b21d-6d43658a16eb/rulings",
-      "prints_search_uri": "https://api.scryfall.com/cards/search?order=set&q=%21%E2%80%9CCrucible+of+Worlds%E2%80%9D+include%3Aextras&unique=prints",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A33c722cf-b4bf-431f-aefd-ee96241a7fbf&unique=prints",
       "collector_number": "229",
       "digital": false,
       "rarity": "mythic",
       "flavor_text": "Amidst the darkest ashes grow the strongest seeds.",
       "illustration_id": "3dba8aff-0042-4369-b1ef-93e0005cba85",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
       "artist": "Ron Spencer",
+      "border_color": "black",
       "frame": "2015",
       "full_art": false,
-      "border_color": "black",
-      "timeshifted": false,
-      "colorshifted": false,
-      "futureshifted": false,
+      "textless": false,
+      "booster": true,
       "story_spotlight": false,
-      "edhrec_rank": 368,
-      "usd": "14.25",
-      "tix": "1.61",
-      "eur": "11.09",
+      "edhrec_rank": 334,
+      "prices": {
+        "usd": "23.89",
+        "usd_foil": "37.39",
+        "eur": "15.96",
+        "tix": "0.72"
+      },
       "related_uris": {
-        "gatherer": "http://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
-        "tcgplayer_decks": "http://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall",
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=447366",
+        "tcgplayer_decks": "https://decks.tcgplayer.com/magic/deck/search?contains=Crucible+of+Worlds&page=1&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
         "edhrec": "http://edhrec.com/route/?cc=Crucible+of+Worlds",
-        "mtgtop8": "http://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
+        "mtgtop8": "https://mtgtop8.com/search?MD_check=1&SB_check=1&cards=Crucible+of+Worlds"
       },
       "purchase_uris": {
-        "amazon": "https://www.amazon.com/gp/search?ie=UTF8&index=toys-and-games&keywords=Crucible+of+Worlds&tag=scryfall-20",
-        "ebay": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?campid=5337966903&icep_catId=19107&icep_ff3=10&icep_sortBy=12&icep_uq=Crucible+of+Worlds&icep_vectorid=229466&ipn=psmain&kw=lg&kwid=902099&mtid=824&pub=5575230669&toolid=10001",
-        "tcgplayer": "https://scryfall.com/s/tcgplayer/168749",
-        "magiccardmarket": "https://scryfall.com/s/mcm/359976",
-        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall",
-        "card_kingdom": "https://www.cardkingdom.com/catalog/item/219885?partner=scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
-        "mtgo_traders": "http://www.mtgotraders.com/deck/ref.php?id=68621&referral=scryfall",
-        "coolstuffinc": "https://scryfall.com/s/coolstuffinc/4420505"
+        "tcgplayer": "https://shop.tcgplayer.com/product/productsearch?id=168749&partner=Scryfall&utm_campaign=affiliate&utm_medium=scryfall&utm_source=scryfall",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Singles/Core-2019/Crucible-of-Worlds?referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/68621?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
       }
     }
   },
-  "/cards/named?fuzzy=This card doesn't exist": {
+  "https://api.scryfall.com/cards/named?fuzzy=This card doesn't exist": {
     "status": 404,
     "data": {
       "object": "error",
@@ -645,7 +786,7 @@
       "details": "No cards found matching “This card doesn't exist”"
     }
   },
-  "/cards/named?fuzzy=jace": {
+  "https://api.scryfall.com/cards/named?fuzzy=jace": {
     "status": 404,
     "data": {
       "object": "error",

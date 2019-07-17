@@ -6,8 +6,8 @@ import {
   wait,
   fireEvent,
   waitForElement,
-} from 'react-testing-library';
-import 'jest-dom/extend-expect';
+} from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect'
 
 import {
   loadAndApplyFixtures,
@@ -47,7 +47,7 @@ describe('CardLink component', () => {
       ],
       [
         'Blac Lotus',
-        'https://scryfall.com/card/vma/4/black-lotus?utm_source=api',
+        'https://scryfall.com/card/2ed/233/black-lotus?utm_source=api',
       ],
     ])(
       'renders a link to the scryfall page after the search is resolved',

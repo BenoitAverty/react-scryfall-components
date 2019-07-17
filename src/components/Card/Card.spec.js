@@ -1,7 +1,7 @@
 // Import all that is needed for testing
 import React from 'react';
-import { render, cleanup, waitForElement, wait } from 'react-testing-library';
-import 'jest-dom/extend-expect';
+import { render, cleanup, waitForElement, wait } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 
 import {
   loadAndApplyFixtures,
@@ -66,7 +66,7 @@ describe('Card component', () => {
       expect(container.querySelectorAll('img')).toHaveLength(1);
       expect(container.querySelector('img')).toHaveAttribute(
         'src',
-        'https://img.scryfall.com/cards/normal/en/m19/229.jpg?1531451273',
+        'https://img.scryfall.com/cards/normal/front/e/b/eb28b35c-28a5-4042-b21d-6d43658a16eb.jpg?1562304863',
       );
       expect(container.querySelector('img')).toHaveAttribute(
         'alt',
@@ -89,7 +89,7 @@ describe('Card component', () => {
       expect(container.querySelectorAll('img')).toHaveLength(1);
       expect(container.querySelector('img')).toHaveAttribute(
         'src',
-        'https://img.scryfall.com/cards/small/en/mm3/16.jpg?1517813031',
+        'https://img.scryfall.com/cards/small/front/4/2/4206d5f8-edeb-4e0b-8e98-736f6ccdcf99.jpg?1561762721',
       );
       expect(container.querySelector('img')).toHaveAttribute(
         'alt',
